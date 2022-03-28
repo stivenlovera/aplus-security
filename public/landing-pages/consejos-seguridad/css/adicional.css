@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+#header1-1 .fa {
+  color: #fff;
+}
+#header7-6 .features-list i {
+  color: #fff;
+  border-color: #fff;
+}
+#header23-21 .fa {
+  color: #fff;
+}
+#header27-25 .features-list i {
+  color: #fff;
+  border-color: #fff;
+}
+#counters1-39 i {
+  color: #29d9c2;
+}
+#counters2-40 i {
+  color: #fff;
+}
+#counters3-41 i {
+  color: #fff;
+}
+#header22-44 i {
+  color: #29d9c2;
+}
+#features1-45 .service-content:hover i {
+  background-color: #29d9c2;
+}
+#features1-45 .service-content:hover i::after {
+  border-color: #29d9c2;
+}
+#features4-46 i {
+  color: #29d9c2;
+}
+#features5-47 i {
+  color: #fff;
+}
+#features5-47 .s2-box:hover i {
+  color: #29d9c2;
+}
+#features6-48 i {
+  color: #29d9c2;
+}
+#msg-box7-62 p {
+  color: #777;
+}
+#testimonials4-72 p,
+#testimonials4-72 span {
+  color: #fff;
+}
+#form4-79 H5 {
+  font-family: 'Montserrat', sans-serif;
+}
+#form5-80 H5 {
+  font-family: 'Montserrat', sans-serif;
+}
+#contacts1-83 .contact-info i {
+  color: #29d9c2;
+}
+#contacts5-85 i {
+  color: #29d9c2;
+}
