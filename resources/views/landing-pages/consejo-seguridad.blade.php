@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="{{ asset('landing-pages/consejos-seguridad/css/bootstrap.min.css') }}">
     <link rel="stylesheet"
-        href="{{ asset('landing-pages/consejos-seguridad/css/font-awesome/css/font-awesome.min.css') }}">
+        href="{{ asset('landing-pages/consejos-seguridad/font-awesome/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('landing-pages/consejos-seguridad/css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('landing-pages/consejos-seguridad/css/swipebox.min.css') }}">
     <link rel="stylesheet" href="{{ asset('landing-pages/consejos-seguridad/css/slick.css') }}">
@@ -137,8 +137,6 @@
             <div class="container">All rights reserved.</div>
         </div>
     </section>
-
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
 
     </script>
     <script src="{{ asset('landing-pages/consejos-seguridad/js/jquery.min.js') }}"></script>
