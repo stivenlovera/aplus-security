@@ -29,6 +29,6 @@ Route::get('/contacto', function () {
     return view('portafolio-v1/pages/contacto');
 })->name('contacto');
 
-Route::get('/consejo-seguridad', function () {
+Route::get('/consejos-seguridad', function () {
     return view('landing-pages/consejo-seguridad');
 });
