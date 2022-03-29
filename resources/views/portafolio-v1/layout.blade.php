@@ -50,8 +50,8 @@
                     /* Common settings */
                     _settings: {
                         token: "e743ec2b4a48538a69bfa2b86c4eb508",
-                        url: "https://aplus-security.com/index.php",
-                        frontEndUrl: "https://aplus-security.com/index.php"
+                        url: "{{ route('inicio') }}",
+                        frontEndUrl: "{{ route('inicio') }}"
                     },
                     /* Internal jQuery */
                     jQuery: $
@@ -117,7 +117,7 @@
         gtag('config', 'UA-208227553-1');
     </script>
     <meta name="facebook-domain-verification" content="isz0fv9qipgisay1m621wkhbt4o1gt" />
-
+    <link href="{{ asset('portafolio-v1/favicon.ico') }}" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" href="{{ asset('portafolio-v1/css/bootstrap.min.css') }}">
     <!--   <link rel="stylesheet"
         href="https://aplus-security.com/plugins/system/zo2/framework/assets/vendor/font-awesome/css/font-awesome.min.css"> -->
@@ -435,11 +435,11 @@
             <a href="#" class="sidebar-close"></a>
             <div class="sidebar-nav">
                 <ul>
-                    <li class="nav-active"><a href="/index.php">Inicio</a></li>
-                    <li class=""><a href="/index.php/quienes-somos">Quienes Somos</a></li>
-                    <li class=""><a href="/index.php/servicios">Servicios</a></li>
-                    <li class=""><a href="/index.php/casos-de-exito">Casos de Exito</a></li>
-                    <li class=""><a href="/index.php/contacto">Contacto</a></li>
+                    <li class="nav-active"><a href="{{ route('inicio') }}">Inicio</a></li>
+                    <li class=""><a href="{{ route('quienes-somos') }}">Quienes Somos</a></li>
+                    <li class=""><a href="{{ route('servicios') }}">Servicios</a></li>
+                    <li class=""><a href="{{ route('casos-exito') }}">Casos de Exito</a></li>
+                    <li class=""><a href="{{ route('contacto') }}">Contacto</a></li>
                 </ul>
             </div>
         </div>
