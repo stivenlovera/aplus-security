@@ -27,7 +27,7 @@
                                             <li data-index="rs-3" data-transition="fade" data-slotamount="default"
                                                 data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default"
                                                 data-easeout="default" data-masterspeed="300"
-                                                data-thumb="https://aplus-security.com/administrator/components/com_zt_layerslider/helpers/html/timthumb.php?src=https://aplus-security.com/images/slideshow/slide02.jpg&amp;h=50&amp;w=100"
+                                                data-thumb="{{ asset('portafolio-v1/img/imagenes/slide02.jpg') }}"
                                                 data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1=""
                                                 data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                                                 data-param7="" data-param8="" data-param9="" data-param10=""
@@ -43,7 +43,7 @@
                                             <li data-index="rs-4" data-transition="fade" data-slotamount="default"
                                                 data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default"
                                                 data-easeout="default" data-masterspeed="300"
-                                                data-thumb="https://aplus-security.com/administrator/components/com_zt_layerslider/helpers/html/timthumb.php?src=https://aplus-security.com/images/slideshow/slide01.jpg&amp;h=50&amp;w=100"
+                                                data-thumb="{{ asset('portafolio-v1/img/imagenes/slide01.jpg') }}"
                                                 data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1=""
                                                 data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                                                 data-param7="" data-param8="" data-param9="" data-param10=""
@@ -59,7 +59,7 @@
                                             <li data-index="rs-5" data-transition="fade" data-slotamount="default"
                                                 data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default"
                                                 data-easeout="default" data-masterspeed="300"
-                                                data-thumb="https://aplus-security.com/administrator/components/com_zt_layerslider/helpers/html/timthumb.php?src=https://aplus-security.com/images/slideshow/slide03.jpg&amp;h=50&amp;w=100"
+                                                data-thumb="{{ asset('portafolio-v1/img/imagenes/slide03.jpg') }}"
                                                 data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1=""
                                                 data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                                                 data-param7="" data-param8="" data-param9="" data-param10=""
@@ -154,7 +154,7 @@
                                             } else {
                                                 revapi1 = tpj("#rev_slider_1_1").show().revolution({
                                                     sliderType: "standard",
-                                                    jsFileLocation: "//aplus-security.com/administrator/components/com_zt_layerslider/assets/js/",
+                                                    jsFileLocation: "{{ asset('portafolio-v1/js/web/js') }}/", 
                                                     sliderLayout: "fullwidth",
                                                     dottedOverlay: "none",
                                                     delay: 9000,

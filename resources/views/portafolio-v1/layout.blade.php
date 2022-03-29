@@ -194,18 +194,22 @@
                                     <div class="zo2-megamenu animate slide" data-duration="1200" data-hover="hover">
                                         <ul class="nav navbar-nav level-top">
                                             <li class=" current active" data-id="101" data-level="1"><a
-                                                    class="" href="{{ route('inicio') }}">Inicio</a></li>
+                                                    class="" href="{{ route('inicio') }}">Inicio</a>
+                                            </li>
                                             <li class="" data-id="104" data-level="1"><a
-                                                    class="" href="{{ route('quienes-somos') }}">Quienes
+                                                    class=""
+                                                    href="{{ route('quienes-somos') }}">Quienes
                                                     Somos</a></li>
                                             <li class="" data-id="107" data-level="1"><a
-                                                    class="" href="{{ asset('servicios') }}">Servicios</a>
+                                                    class=""
+                                                    href="{{ asset('servicios') }}">Servicios</a>
                                             </li>
                                             <li class="" data-id="137" data-level="1"><a
                                                     class="" href="{{ route('casos-exito') }}">Casos de
                                                     Exito</a></li>
                                             <li class="" data-id="115" data-level="1"><a
-                                                    class="" href="{{ route('contacto') }}">Contacto</a></li>
+                                                    class=""
+                                                    href="{{ route('contacto') }}">Contacto</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -218,7 +222,7 @@
         </section>
 
         @yield('content')
-        
+
         <!-- build row: Footer -->
         <section id="zo2-footer-wrap" class="">
             <div class="container">
@@ -235,7 +239,8 @@
 
 
                                             <div class="customaboutwindy">
-                                                <p><img src="{{ asset('portafolio-v1/img/varios/logo-footer.png') }}" alt="" /></p>
+                                                <p><img src="{{ asset('portafolio-v1/img/varios/logo-footer.png') }}"
+                                                        alt="" /></p>
                                                 <p><span style="color: #fff;">Tenemos como principal objetivo dar a
                                                         conocer el excelente servicio que nuestra empresa puede brindar
                                                         a todas las personas y/o empresas de nuestro medio.</span></p>
@@ -280,7 +285,8 @@
                                                             <!-- notag -->
                                                         </i>info@aplus-security.com</li>
                                                 </ul>
-                                                <p><img class="pull-center" src="{{ asset('portafolio-v1/img/varios/codigo-qr.jpg') }}"
+                                                <p><img class="pull-center"
+                                                        src="{{ asset('portafolio-v1/img/varios/codigo-qr.jpg') }}"
                                                         alt="" /></p>
                                             </div>
                                         </div>
@@ -343,7 +349,8 @@
                                                 <p>
                                                     <a href="https://www.google.com/maps/place/17%C2%B047'53.6%22S+63%C2%B011'23.3%22W/@-17.7982305,-63.1919822,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-17.7982305!4d-63.1897935?hl=es"
                                                         target="_blank" rel="alternate"><img
-                                                            src="{{ asset('portafolio-v1/img/varios/mapa-inicio.png') }}" alt="" /></a>
+                                                            src="{{ asset('portafolio-v1/img/varios/mapa-inicio.png') }}"
+                                                            alt="" /></a>
                                                 </p>
                                             </div>
                                         </div>
@@ -445,20 +452,15 @@
         });
     </script>
 
-    <script type="text/javascript"
-        src="https://aplus-security.com/plugins/system/zo2/framework/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript"
-        src="https://aplus-security.com/plugins/system/zo2/framework/assets/vendor/ekko-lightbox.js"></script>
-    <script type="text/javascript"
-        src="https://aplus-security.com/plugins/system/zo2/framework/assets/vendor/jquery.sticky.js"></script>
-    <script type="text/javascript" src="https://aplus-security.com/plugins/system/zo2/framework/assets/zo2/js/zo2.js">
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/ekko-lightbox.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/jquery.sticky.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/zo2.js') }}">
     </script>
-    <script type="text/javascript"
-        src="https://aplus-security.com/plugins/system/zo2/framework/assets/zo2/js/site.megamenu.js"></script>
-    <script type="text/javascript"
-        src="https://aplus-security.com/plugins/system/zo2/framework/assets/zo2/js/site.scripts.js"></script>
-    <script type="text/javascript" src="https://aplus-security.com/templates/zo2_windy/assets/zo2/js/custom.js"></script>
-    <script type="text/javascript" src="https://aplus-security.com/templates/zo2_windy/assets/zo2/js/template.js"></script>
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/bsite.megamenu.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/site.scripts.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/custom.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/template.js') }}"></script>
     <script>
         jQuery(document).ready(function() {});
     </script>

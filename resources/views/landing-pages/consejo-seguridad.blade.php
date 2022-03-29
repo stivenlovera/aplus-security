@@ -110,7 +110,7 @@
                             
                         </div>
                         <div>
-                            <a href="{{ asset('documents/LABORATORIO LABOCLINIC.pdf') }}" download="consejo de seguridad.pdf" class="btn btn-lg btn-success">
+                            <a href="{{ asset('documents/CONSEJOS SEGURIDAD.pdf') }}" download="consejo de seguridad.pdf" class="btn btn-lg btn-success">
                                 Descargar
                                 <!--    <i class="fa fa-shopping-basket"></i> -->
                             </a>
@@ -121,7 +121,7 @@
                         <div class="hl-container pull-right">
                             <figure
                                 class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width">
-                                <img src="{{ asset('documents/CONSEJOS SEGURIDAD.pdf') }}" style="width: 80%;"
+                                <img src="{{ asset('landing-pages/consejos-seguridad/img/casa escudo.png') }}" style="width: 80%;"
                                     class="mbr-figure__img hl-image center-block">
                             </figure>
                         </div>
