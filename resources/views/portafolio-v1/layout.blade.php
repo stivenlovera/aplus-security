@@ -18,6 +18,7 @@
     </title>
     <!-- Enable responsive -->
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
     <script src="{{ asset('portafolio-v1/js/jquery/jquery.min.js?') }}" type="text/javascript"></script>
     <script src="{{ asset('portafolio-v1/js/jquery/jquery-noconflict.js') }}" type="text/javascript"></script>
     <script src="{{ asset('portafolio-v1/js/jquery/jquery-migrate.min.js') }}" type="text/javascript"></script>

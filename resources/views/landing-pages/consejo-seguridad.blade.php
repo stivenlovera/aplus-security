@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
     <meta name="description" content="Unicore Page Builder - Mobirise Template">
     <title>A+ Security Tecnología y Seguridad</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <link rel="stylesheet" href="{{ asset('landing-pages/consejos-seguridad/css/bootstrap.min.css') }}">
     <link rel="stylesheet"
