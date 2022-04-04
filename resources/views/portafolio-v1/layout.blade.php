@@ -18,7 +18,7 @@
     </title>
     <!-- Enable responsive -->
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    
+
     <script src="{{ asset('portafolio-v1/js/jquery/jquery.min.js?') }}" type="text/javascript"></script>
     <script src="{{ asset('portafolio-v1/js/jquery/jquery-noconflict.js') }}" type="text/javascript"></script>
     <script src="{{ asset('portafolio-v1/js/jquery/jquery-migrate.min.js') }}" type="text/javascript"></script>
@@ -74,8 +74,7 @@
     </script>
     <!-- built with zo2 framework: http://www.zootemplate.com/zo2 -->
 
-
-    <!-- Facebook Pixel Code -->
+    <!-- Meta Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
@@ -95,14 +94,13 @@
             s.parentNode.insertBefore(t, s)
         }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '639047403732551');
+        fbq('init', '837688500965980');
         fbq('track', 'PageView');
     </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=639047403732551&ev=PageView&noscript=1" />
-    </noscript>
-    <!-- End Facebook Pixel Code -->
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=837688500965980&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208227553-1">
