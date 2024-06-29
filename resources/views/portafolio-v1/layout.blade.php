@@ -4,21 +4,30 @@
 <head>
     <!-- Meta Pixel Code -->
     <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '368017838601512');
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=368017838601512&ev=PageView&noscript=1"
-    /></noscript>
-  <!-- End Meta Pixel Code -->
+            src="https://www.facebook.com/tr?id=368017838601512&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 
     <meta charset="UTF-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -42,8 +51,7 @@
     <script src="{{ asset('portafolio-v1/js/jquery/jquery-migrate.min.js') }}" type="text/javascript"></script>
 
     <script src="{{ asset('portafolio-v1/js/web/caption.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('portafolio-v1/js/web/jquery.fancybox-1.3.4.pack.js') }}" type="text/javascript">
-    </script>
+    <script src="{{ asset('portafolio-v1/js/web/jquery.fancybox-1.3.4.pack.js') }}" type="text/javascript"></script>
 
     <script src="{{ asset('portafolio-v1/js/web/vmprices.js') }}" type="text/javascript"></script>
     <script src="{{ asset('portafolio-v1/js/web/chosen.jquery.min.js') }}" type="text/javascript"></script>
@@ -106,8 +114,7 @@
     </style>
     <link rel="stylesheet" type="text/css" href="{{ asset('portafolio-v1/css/font-awesome.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('portafolio-v1/css/carousel.css') }}">
-    <script src="{{ asset('portafolio-v1/js/web/jquery.carouFredSel-6.2.1.js') }}">
-    </script>
+    <script src="{{ asset('portafolio-v1/js/web/jquery.carouFredSel-6.2.1.js') }}"></script>
     <script src="{{ asset('portafolio-v1/js/web/carousel.js') }}"></script>
 </head>
 
@@ -128,8 +135,8 @@
                         <!-- build column: canvas-menu -->
 
                         <!-- jdoc: canvasmenu - position: canvas-menu -->
-                        <div id="zo2-canvas-menu" class=""><span class="button-canvas"><i
-                                    class="fa fa-2x fa-bars" data-toggle="offcanvas"></i></span></div>
+                        <div id="zo2-canvas-menu" class=""><span class="button-canvas"><i class="fa fa-2x fa-bars"
+                                    data-toggle="offcanvas"></i></span></div>
                     </div>
                     <div class="zo2–column-193203567620bde85557dc mobile-logo col-md-2 col-sm-9 col-xs-10">
                         <!-- build column: header-logo -->
@@ -145,7 +152,8 @@
                             <!-- Retina logo -->
                             <header id="retina-logo" class="zo2-logo">
                                 <a class="retina-logo-link" href="{{ route('inicio') }}" title="">
-                                    <img alt="" src="{{ asset('portafolio-v1/img/varios/logo-retina.png') }}" />
+                                    <img alt=""
+                                        src="{{ asset('portafolio-v1/img/varios/logo-retina.png') }}" />
                                 </a>
                             </header>
                             <!-- stickey logo -->
@@ -168,30 +176,30 @@
                                 <div class="navbar-collapse collapse">
                                     <div class="zo2-megamenu animate slide" data-duration="1200" data-hover="hover">
                                         <ul class="nav navbar-nav level-top">
-                                            <li class=" current active" data-id="101" data-level="1"><a
-                                                    class="" href="{{ route('inicio') }}">Inicio</a>
+                                            <li class=" current active" data-id="101" data-level="1"><a class=""
+                                                    href="{{ route('inicio') }}">Inicio</a>
                                             </li>
-                                            <li class="" data-id="104" data-level="1"><a
-                                                    class=""
+                                            <li class="" data-id="104" data-level="1"><a class=""
                                                     href="{{ route('quienes-somos') }}">Quienes
                                                     Somos</a></li>
-                                            <li class="" data-id="107" data-level="1"><a
-                                                    class=""
+                                            <li class="" data-id="107" data-level="1"><a class=""
                                                     href="{{ asset('servicios') }}">Servicios</a>
                                             </li>
-                                            <li class="" data-id="137" data-level="1"><a
-                                                    class="" href="{{ route('casos-exito') }}">Casos de
+                                            <li class="" data-id="137" data-level="1"><a class=""
+                                                    href="{{ route('casos-exito') }}">Casos de
                                                     Exito</a></li>
-                                            <li class="" data-id="115" data-level="1"><a
-                                                    class=""
+                                            <li class="" data-id="115" data-level="1"><a class=""
                                                     href="{{ route('contacto') }}">Contacto</a></li>
+                                            <li class="" data-id="115" data-level="1"><a class=""
+                                                    target="_blank"
+                                                    href="https://soporte.aplus-security.com/">Soporte</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </nav>
                         </div>
                     </div>
-                    <div class="zo2–column-1004692056620bde85570fe col-md-0 col-sm-0"></div>
+                    <div class="zo2-column-1004692056620bde85570fe col-md-0 col-sm-0"></div>
                 </div>
             </div>
         </section>
@@ -287,7 +295,8 @@
 
                                             <div class="customnewsletter">
                                                 <p><span style="color: #ffffff;"><strong>»</strong> Cableado
-                                                        Estructurado</span><br /><span style="color: #ffffff;"><strong>»
+                                                        Estructurado</span><br /><span
+                                                        style="color: #ffffff;"><strong>»
                                                         </strong>Cámaras de Vigilancia</span><br /><span
                                                         style="color: #ffffff;"><strong>» </strong>Alarmas de
                                                         Incendio</span><br /><span style="color: #ffffff;"><strong>»
@@ -296,7 +305,8 @@
                                                         Asistencia</span><br /><span style="color: #ffffff;"><strong>»
                                                         </strong>Telefonía IP</span><br /><span
                                                         style="color: #ffffff;"><strong>» </strong>Porteros
-                                                        Electrónicos</span><br /><span style="color: #ffffff;"><strong>»
+                                                        Electrónicos</span><br /><span
+                                                        style="color: #ffffff;"><strong>»
                                                         </strong>Alarmas de Intrusión</span></p>
                                             </div>
                                         </div>
@@ -363,7 +373,8 @@
                                                                     Web</span></a>
                                                         </span> | <span style="color: #fff;"><a
                                                                 title="Web Hosting en Bolivia"
-                                                                href="http://www.gcomhosting.com/" target="_blank"><span
+                                                                href="http://www.gcomhosting.com/"
+                                                                target="_blank"><span
                                                                     style="color: #fff;">Hosting</span></a>
                                                         </span> |
                                                         <span style="color: #fff;"><a title="Radio Streaming Bolivia"
@@ -381,7 +392,8 @@
                             <div class="gap"></div>
                             <footer>
                                 <section class="zo2-copyright"> </section>
-                                <a href="#" id="gototop" title="Go to top"><i class="fa fa-chevron-up"></i></a>
+                                <a href="#" id="gototop" title="Go to top"><i
+                                        class="fa fa-chevron-up"></i></a>
                                 <script>
                                     jQuery("#gototop").hide();
                                     jQuery("#gototop").click(function() {
@@ -430,8 +442,7 @@
     <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/ekko-lightbox.js') }}"></script>
     <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/jquery.sticky.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/zo2.js') }}">
-    </script>
+    <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/zo2.js') }}"></script>
     <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/bsite.megamenu.js') }}"></script>
     <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/site.scripts.js') }}"></script>
     <script type="text/javascript" src="{{ asset('portafolio-v1/js/web/custom.js') }}"></script>
@@ -452,7 +463,8 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputNombre">Nombre Completo</label>
-                            <input type="text" class="form-control" id="exampleInputNombre" placeholder="Text input">
+                            <input type="text" class="form-control" id="exampleInputNombre"
+                                placeholder="Text input">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email</label>
