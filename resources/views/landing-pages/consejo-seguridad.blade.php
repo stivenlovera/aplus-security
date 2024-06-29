@@ -24,40 +24,38 @@
     <link rel="stylesheet" href="{{ asset('landing-pages/consejos-seguridad/css/styles4.css') }}">
     <link rel="stylesheet" href="{{ asset('landing-pages/consejos-seguridad/css/styles5.css') }}">
     <link rel="stylesheet" href="{{ asset('landing-pages/consejos-seguridad/css/adicional.css') }}" type="text/css">
-
+<meta name="facebook-domain-verification" content="8lu7m5wnqxl0h2zrkfajwnx00phov4" />
+<!-- Facebook Pixel Code -->
+<script>
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '639047403732551');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=639047403732551&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
-
-    <!-- Facebook Pixel Code -->
-    <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '639047403732551');
-        fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=639047403732551&ev=PageView&noscript=1" />
-    </noscript>
-    <!-- End Facebook Pixel Code -->
-
     <section id="menu-0">
 
         <nav class="navbar-inverse navbar-lg navbar-fixed-top">
