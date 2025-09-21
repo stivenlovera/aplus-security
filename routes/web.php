@@ -29,6 +29,14 @@ Route::get('/contacto', function () {
     return view('portafolio-v1/pages/contacto');
 })->name('contacto');
 
+
+Route::get('/terminos-y-condiciones', function () {
+    return view('portafolio-v1/pages/terminos-y-condiciones');
+})->name('terminos-y-condiciones');
+
+Route::get('/politica-de-privacidad', function () {
+    return view('portafolio-v1/pages/politica-de-privacidad');
+})->name('politica-de-privacidad');
 /* Route::get('/consejos-seguridad', function () {
 return view('landing-pages/consejo-seguridad');
 }); */
